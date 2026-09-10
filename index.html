@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sherwin Sargeant | Retirement Planning &amp; Insurance</title>
+<meta name="description" content="Retirement planning, financial advising, and insurance guidance from Sherwin Sargeant. Personalized plans built around your life, not a spreadsheet.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.sherwinassociates.com/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Sherwin Sargeant | Retirement Planning & Insurance">
+<meta property="og:description" content="Retirement planning, financial advising, and insurance guidance built around your life.">
+<meta property="og:url" content="https://www.sherwinassociates.com/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "Sherwin Associates",
+  "founder": {
+    "@type": "Person",
+    "name": "Sherwin Sargeant",
+    "jobTitle": "Retirement Planning & Financial Advisor"
+  },
+  "telephone": "+1-321-352-7912",
+  "email": "sherwin@sherwinassociates.com",
+  "areaServed": "Central Florida",
+  "url": "https://www.sherwinassociates.com/",
+  "priceRange": "Free consultation"
+}
+</script>
+
+<style>
+  :root{
+    --bg: #EFE9DC;
+    --panel: #E4DCC9;
+    --ink: #1C2521;
+    --pine: #1F3A32;
+    --pine-deep: #142720;
+    --brass: #9C7A3C;
+    --brass-light: #C7A467;
+    --line: #CFC3A6;
+    --muted: #55605A;
+    --max: 1080px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Spectral', Georgia, serif;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0;
+    color: var(--pine-deep);
+  }
+
+  a { color: inherit; }
+
+  p { max-width: 62ch; }
+
+  .wrap{
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+
+  /* ---------- Header ---------- */
+  header.site{
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .header-row{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .brand{
+    font-family: 'Spectral', serif;
+    font-size: 1.15rem;
+    letter-spacing: 0.01em;
+  }
+  .brand strong{ font-weight: 600; }
+  .header-phone{
+    font-size: 0.95rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--brass);
+    padding-bottom: 2px;
+    white-space: nowrap;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding: 72px 0 88px;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .hero h1{
+    font-size: clamp(2.1rem, 4vw, 3.1rem);
+    max-width: 14ch;
+  }
+  .hero .lede{
+    margin-top: 22px;
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 46ch;
+  }
+  .cta-row{
+    margin-top: 34px;
+    display:flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding: 13px 26px;
+    font-size: 0.98rem;
+    text-decoration: none;
+    border: 1px solid var(--pine-deep);
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .btn-solid{
+    background: var(--pine-deep);
+    color: var(--bg);
+  }
+  .btn-outline{
+    background: transparent;
+    color: var(--pine-deep);
+  }
+
+  .card{
+    background: var(--pine-deep);
+    color: var(--bg);
+    padding: 32px 30px;
+    border-top: 3px solid var(--brass-light);
+  }
+  .card h3{
+    color: var(--brass-light);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 18px;
+    font-style: italic;
+  }
+  .card ul{
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+  }
+  .card li{
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(239,233,220,0.15);
+    font-size: 0.96rem;
+  }
+  .card li:last-child{ border-bottom: none; }
+  .card .contact-line{
+    margin-top: 22px;
+    font-size: 0.95rem;
+  }
+  .card .contact-line a{
+    text-decoration: none;
+    border-bottom: 1px solid var(--brass-light);
+  }
+
+  /* ---------- Sections ---------- */
+  section{
+    padding: 64px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  section:last-of-type{ border-bottom: none; }
+
+  .section-head{
+    display:grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 40px;
+    margin-bottom: 8px;
+  }
+  .section-head h2{
+    font-size: 1.7rem;
+  }
+  .section-head .intro{
+    color: var(--muted);
+  }
+
+  /* about */
+  .about-body{
+    margin-top: 18px;
+  }
+
+  /* services */
+  .service-list{
+    margin-top: 36px;
+    border-top: 1px solid var(--line);
+  }
+  .service{
+    display:grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 40px;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .service h3{
+    font-size: 1.2rem;
+  }
+  .service p{ color: var(--muted); margin: 10px 0 0; }
+
+  /* process */
+  .process{
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+  }
+  .process .step{
+    border-left: 2px solid var(--brass);
+    padding-left: 18px;
+  }
+  .process .step .num{
+    font-family:'Spectral', serif;
+    font-style: italic;
+    color: var(--brass);
+    font-size: 1.6rem;
+    display:block;
+    margin-bottom: 10px;
+  }
+  .process h3{ font-size: 1.05rem; }
+  .process p{ color: var(--muted); margin-top: 8px; font-size: 0.96rem; }
+
+  /* contact */
+  .contact-block{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .contact-item{
+    padding: 22px 0;
+  }
+  .contact-item .label{
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .contact-item a{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--brass);
+  }
+
+  footer{
+    padding: 30px 0 50px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  @media (max-width: 780px){
+    .hero-grid, .section-head, .service, .contact-block{
+      grid-template-columns: 1fr;
+    }
+    .process{ grid-template-columns: 1fr; }
+    .header-row{ flex-direction: column; align-items:flex-start; gap: 10px; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap header-row">
+    <div class="brand"><strong>Sherwin Sargeant</strong> — Sherwin Associates</div>
+    <a class="header-phone" href="tel:+13213527912">321-352-7912</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Retirement planning built around your life, not a spreadsheet.</h1>
+        <p class="lede">
+          I help individuals and families across Central Florida plan for
+          retirement, protect what they've built, and make sense of the
+          financial decisions that come with getting older — clearly,
+          and without the jargon.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="tel:+13213527912">Call 321-352-7912</a>
+          <a class="btn btn-outline" href="mailto:sherwin@sherwinassociates.com">Email Sherwin</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Based in Central Florida</h3>
+        <ul>
+          <li>Retirement planning</li>
+          <li>Financial advising</li>
+          <li>Insurance planning</li>
+        </ul>
+        <div class="contact-line">
+          <a href="tel:+13213527912">321-352-7912</a>
+        </div>
+        <div class="contact-line">
+          <a href="mailto:sherwin@sherwinassociates.com">sherwin@sherwinassociates.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>About Sherwin</h2>
+        <div class="intro about-body">
+          <p>
+            Sherwin Sargeant works with clients on the questions that
+            matter most as retirement approaches: when to retire, how to
+            make savings last, and how to protect a family against the
+            unexpected. The goal is always the same — a plan you actually
+            understand, built around the life you want to live.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How I can help</h2>
+        <div class="intro">
+          <p>Three areas of focus, worked together as one plan rather than separate transactions.</p>
+        </div>
+      </div>
+
+      <div class="service-list">
+        <div class="service">
+          <h3>Retirement Planning</h3>
+          <p>A clear picture of when you can retire and what retirement will
+          actually look like — income, savings, Social Security timing, and
+          the trade-offs between them.</p>
+        </div>
+        <div class="service">
+          <h3>Financial Advising</h3>
+          <p>Ongoing guidance on savings, investments, and the financial
+          decisions that come up along the way, explained in plain terms.</p>
+        </div>
+        <div class="service">
+          <h3>Insurance Planning</h3>
+          <p>Coverage that protects your income, your health, and your
+          family — matched to your actual situation, not oversold.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Working together</h2>
+        <div class="intro">
+          <p>A simple process from first conversation to an ongoing relationship.</p>
+        </div>
+      </div>
+
+      <div class="process">
+        <div class="step">
+          <span class="num">1</span>
+          <h3>A conversation</h3>
+          <p>We talk through where you are now and what you're trying to figure out. No cost, no obligation.</p>
+        </div>
+        <div class="step">
+          <span class="num">2</span>
+          <h3>A plan</h3>
+          <p>A retirement and protection plan built around your actual numbers and goals.</p>
+        </div>
+        <div class="step">
+          <span class="num">3</span>
+          <h3>Ongoing guidance</h3>
+          <p>Life changes, and the plan adjusts with it. We stay in touch as things evolve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Get in touch</h2>
+        <div class="intro">
+          <p>The easiest way to start is a phone call or an email — whichever you prefer.</p>
+        </div>
+      </div>
+
+      <div class="contact-block">
+        <div class="contact-item">
+          <div class="label">Phone</div>
+          <a href="tel:+13213527912">321-352-7912</a>
+        </div>
+        <div class="contact-item">
+          <div class="label">Email</div>
+          <a href="mailto:sherwin@sherwinassociates.com">sherwin@sherwinassociates.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:10px;">
+    <span>Sherwin Sargeant &middot; Sherwin Associates</span>
+    <span>&copy; 2026 &middot; Central Florida</span>
+  </div>
+</footer>
+
+</body>
+</html>
