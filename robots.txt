@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sherwinassociates.com/sitemap.xml
+Sitemap: https://sherwinassociates.github.io/sherwinassociates/sitemap.xml
